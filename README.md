@@ -12,7 +12,19 @@ The goal of this project is to:
 
 ## Project Structure
 
-|-- src/ | |-- FXBarrierOption.py # Main class for option pricing | |-- utils.py # Helper functions for computations |-- notebooks/ | |-- Vanna-Volga_Pricing.ipynb # Jupyter notebook for analysis and visualization |-- data/ | |-- sample_input.csv # Sample input dataset (optional) |-- README.md # Project documentation |-- requirements.txt # Dependencies
+Vanna-Volga-Barrier-Options/
+│── src/
+│   ├── fx_barrier_option.py  # Core implementation
+│   ├── vanna_volga.py        # Vanna-Volga adjustments
+│   ├── visualization.py      # Plotting functions
+│── notebooks/
+│   ├── pricing_demo.ipynb    # Jupyter notebook with usage examples
+│── tests/
+│   ├── test_fx_barrier_option.py  # Unit tests
+│── requirements.txt   # Dependencies
+│── README.md          # Project documentation
+│── LICENSE            # License (MIT, etc.)
+│── .gitignore         # Ignore unnecessary files
 
 
 
